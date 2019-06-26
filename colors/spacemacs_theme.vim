@@ -5,7 +5,7 @@
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
-  echoerr '[Space-vim theme] There are not enough colors.'
+  echoerr '[Spacemacs theme] There are not enough colors.'
   finish
 endif
 
@@ -14,7 +14,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'space_vim_theme'
+let g:colors_name = 'spacemacs_theme'
 
 if &background ==# 'dark'
   let g:terminal_ansi_colors = [
