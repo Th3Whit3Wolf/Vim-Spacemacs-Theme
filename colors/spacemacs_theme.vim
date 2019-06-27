@@ -56,7 +56,7 @@ let s:cterm08 = "01"
 let s:cterm0A = "03"
 let s:cterm0B = "02"
 let s:cterm0C = "06"
-let s:gui0D = "04"
+let s:cterm0D = "04"
 let s:cterm0E = "05"
 if exists('base16colorspace') && base16colorspace == "256"
   let s:cterm01 = "18"
@@ -325,11 +325,11 @@ call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 
 call <sid>hi("rustCharacterInvalid",               s:gui0D, "", s:gui0D, "", "", "")
 call <sid>hi("rustCharacterInvalidUnicode",               s:gui0D, "", s:gui0D, "", "", "")
-call <sid>hi("rustCommentBlockDoc",               s:gui0D, "", s:gui0D, "", "", "")
-call <sid>hi("rustCommentBlockDocError",               s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")
-call <sid>hi("rustCommentLineDoc",               s:gui0D, "", s:gui0D, "", "", "")
-call <sid>hi("rustCommentLineDocError",               s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")
-call <sid>hi("rustConstant",               s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("rustCommentBlockDoc",               s:gui06, "", s:cterm03, "", "", "")
+call <sid>hi("rustCommentBlockDocError",               s:gui06, s:gui00, s:cterm05, s:cterm00, "", "")
+call <sid>hi("rustCommentLineDoc",               s:gui06, "", s:cterm03, "", "", "")
+call <sid>hi("rustCommentLineDocError",               s:gui06, s:gui00, s:cterm05, s:cterm00, "", "")
+call <sid>hi("rustConstant",               s:gui01, "", s:gui01, "", "", "")
 call <sid>hi("rustEscapeError",               s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")
 call <sid>hi("rustFuncName",               s:gui0D, "", s:gui0D, "", "", "")
 call <sid>hi("rustIdentifier",               s:gui0D, "", s:gui0D, "", "", "")
