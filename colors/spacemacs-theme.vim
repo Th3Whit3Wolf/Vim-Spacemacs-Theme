@@ -1,6 +1,5 @@
 " Name:         Spacemacs theme
 " Description:  Light and dark theme inspired by spacemacs-theme
-" Website:      https://github.com/liuchengxu/space-vim-theme
 " License:      Mit License
 
 " https://github.com/bluz71/vim-moonfly-colors/blob/master/colors/moonfly.vim for filetype hilighting definitions
