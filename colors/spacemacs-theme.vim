@@ -354,7 +354,7 @@ call <sid>hi("rustFloat",                       s:gui0A, "", s:cterm0A, "", "", 
 call <sid>hi("rustFoldBraces",                  s:gui0D, "", s:cterm0D, "", "bold", "")
 call <sid>hi("rustFuncCall",                    s:gui0D, "", s:cterm0D, "", "bold", "")
 call <sid>hi("rustFuncName",                    s:gui0D, "", s:cterm0D, "", "bold", "") "Checked
-call <sid>hi("rustFunction",                    s:gui0D, "", s:cterm0D, "", "bold", "")
+call <sid>hi("rustFunction",                    s:white, "", s:cterm0D, "", "bold", "")
 call <sid>hi("rustIdentifier",                  s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustIdentifierPrime",             s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustInvalidBareKeyword",          s:gui0A, "", s:cterm0A, "", "",     "")
