@@ -321,8 +321,8 @@ call <sid>hi("rustAssert",                      s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustAttribute",                   s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustBinNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustBoolean",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
-call <sid>hi("rustBoxPlacement",                s:gui0E, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustBoxPlacementBalance",         s:gui0E, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustBoxPlacement",                s:gui0D, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustBoxPlacementBalance",         s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustCharacter",                   s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustCharacterInvalid",            s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustCharacterInvalidUnicode",     s:gui0A, "", s:cterm0A, "", "",     "")
@@ -386,11 +386,11 @@ call <sid>hi("rustStringContinuation",          s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustStorage",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustStructure",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSuper",                       s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustTodo",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
+call <sid>hi("rustTodo",                        s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustTrait",                       s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
 call <sid>hi("rustType",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
-call <sid>hi("rustTypedef",                     s:gui0C, "", s:cterm0C, "", "bold", "")
-call <sid>hi("rustUnion",                       s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustTypedef",                     s:gui0F, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustUnion",                       s:gui0F, "", s:cterm0C, "", "bold", "")
 
 
 " SASS highlighting
