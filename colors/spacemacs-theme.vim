@@ -369,7 +369,7 @@ call <sid>hi("rustMacroVariable",               s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustModPath",                     s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustModPathSep",                  s:white, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustObsoleteExternMod",           s:gui0F, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustObsoleteStorage",             s:gui0F, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustObsoleteStorage",             s:gui0C, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustOctNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustOperator",                    s:white, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustPubScope",                    s:gui0D, "", s:cterm0D, "", "",     "")
@@ -386,12 +386,12 @@ call <sid>hi("rustStringContinuation",          s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustStorage",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustStructure",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSuper",                       s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustTodo",                        s:gui0F, "", s:cterm0C, "", "bold", "")
-call <sid>hi("rustTrait",                       s:gui0F, "", s:cterm0C, "", "bold", "") "Checked
-call <sid>hi("rustType",                        s:gui0F, "", s:cterm0C, "", "bold", "") "Checked
-call <sid>hi("rustTypedef",                     s:gui0F, "", s:cterm0C, "", "bold", "")
-call <sid>hi("rustUnion",                       s:gui0F, "", s:cterm0C, "", "bold", "")
-call <sid>hi("rustUnionContextual",             s:gui0F, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustTodo",                        s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustTrait",                       s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
+call <sid>hi("rustType",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
+call <sid>hi("rustTypedef",                     s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustUnion",                       s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustUnionContextual",             s:gui0C, "", s:cterm0C, "", "bold", "")
 
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "", "")
