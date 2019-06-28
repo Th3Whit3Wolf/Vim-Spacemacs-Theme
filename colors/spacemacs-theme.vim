@@ -324,7 +324,7 @@ call <sid>hi("rustCommentBlockDoc",             s:gui0A, "", s:cterm0A, "", "", 
 call <sid>hi("rustCommentBlockDocError",        s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustCommentLineDoc",              s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustCommentLineDocError",         s:gui0A, "", s:cterm0A, "", "",     "")
-call <sid>hi("rustConditional",                 s:gui0A, "", s:cterm0A, "", "",     "")
+call <sid>hi("rustConditional",                 s:gui0D, "", s:cterm0D, "", "bold", "")
 call <sid>hi("rustConstant",                    s:gui09, "", s:cterm09, "", "",     "")
 call <sid>hi("rustDeriving",                    s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustEnum",                        s:gui0E, "", s:cterm0E, "", "",     "")
