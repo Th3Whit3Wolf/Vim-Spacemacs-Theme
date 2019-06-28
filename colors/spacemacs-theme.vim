@@ -318,9 +318,9 @@ call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 " Rust highlighting
 call <sid>hi("rustArrowCharacter",              s:white, "", s:cterm0E, "", "",     "") "Checked
 call <sid>hi("rustAssert",                      s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustAttribute",                   s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustAttribute",                   s:gui0F, "", s:cterm0F, "", "bold", "")
 call <sid>hi("rustBinNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustBoolean",                     s:gui0E, "", s:cterm0E, "", "bold", "")
+call <sid>hi("rustBoolean",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustBoxPlacement",                s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustBoxPlacementBalance",         s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustCharacter",                   s:gui0A, "", s:cterm0A, "", "",     "")
@@ -348,12 +348,12 @@ call <sid>hi("rustEnumVariant",                 s:gui0E, "", s:cterm0E, "", "", 
 call <sid>hi("rustEscape",                      s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustEscapeError",                 s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustEscapeUnicode",               s:gui0A, "", s:cterm0A, "", "",     "")
-call <sid>hi("rustExternCrate",                 s:gui0E, "", s:cterm0E, "", "bold", "")
-call <sid>hi("rustExternCrateString",           s:white, "", s:cterm0A, "", "",     "")
+call <sid>hi("rustExternCrate",                 s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
+call <sid>hi("rustExternCrateString",           s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustFloat",                       s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustFoldBraces",                  s:gui0D, "", s:cterm0D, "", "bold", "")
 call <sid>hi("rustFuncCall",                    s:gui0D, "", s:cterm0D, "", "bold", "")
-call <sid>hi("rustFuncName",                    s:gui0D, "", s:cterm0D, "", "bold", "")
+call <sid>hi("rustFuncName",                    s:gui0D, "", s:cterm0D, "", "bold", "") "Checked
 call <sid>hi("rustFunction",                    s:gui0D, "", s:cterm0D, "", "bold", "")
 call <sid>hi("rustIdentifier",                  s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustIdentifierPrime",             s:gui0A, "", s:cterm0A, "", "",     "")
@@ -383,7 +383,7 @@ call <sid>hi("rustShebang",                     s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustSigil",                       s:white, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustString",                      s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustStringContinuation",          s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustStorage",                     s:gui0E, "", s:cterm0E, "", "bold", "")
+call <sid>hi("rustStorage",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustStructure",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSuper",                       s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustTodo",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
