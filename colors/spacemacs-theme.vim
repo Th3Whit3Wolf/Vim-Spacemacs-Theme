@@ -391,6 +391,7 @@ call <sid>hi("rustTrait",                       s:gui0C, "", s:cterm0C, "", "bol
 call <sid>hi("rustType",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
 call <sid>hi("rustTypedef",                     s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustUnion",                       s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustUnionContextual",             s:gui0C, "", s:cterm0C, "", "bold", "")
 
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "", "")
