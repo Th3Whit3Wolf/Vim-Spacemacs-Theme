@@ -371,7 +371,7 @@ call <sid>hi("rustModPathSep",                  s:white, "", s:cterm0C, "", "bol
 call <sid>hi("rustObsoleteExternMod",           s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustObsoleteStorage",             s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustOctNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustOperator",                    s:gui0D, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustOperator",                    s:gui0E, "", s:cterm0E, "", "",     "")
 call <sid>hi("rustPubScope",                    s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustPubScopeCrate",               s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustPubScopeDelim",               s:gui0D, "", s:cterm0D, "", "",     "")
