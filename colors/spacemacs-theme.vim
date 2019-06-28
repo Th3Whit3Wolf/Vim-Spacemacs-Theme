@@ -332,6 +332,7 @@ call <sid>hi("rustLifetime",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustMacro",               s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("rustMacroVariable",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustModPath",               s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("rustModPathSep",               s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustObsoleteExternMod",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustObsoleteStorage",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustReservedKeyword",               s:gui0D, "", s:cterm0D, "", "", "")
@@ -339,6 +340,11 @@ call <sid>hi("rustSelf",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustStructure",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustTrait",               s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustType",               s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
+call <sid>hi("rustSigil",               s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustAttribute",               s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustDeriving",               s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustAttribute",               s:gui0C, "", s:cterm0C, "", "bold", "")
+
 
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "", "")
