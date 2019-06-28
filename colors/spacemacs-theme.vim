@@ -338,7 +338,7 @@ call <sid>hi("rustReservedKeyword",               s:gui0D, "", s:cterm0D, "", ""
 call <sid>hi("rustSelf",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustStructure",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustTrait",               s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("rustType",               s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("rustType",               s:gui0C, "", s:cterm0C, "", "", "")
 
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "", "")
