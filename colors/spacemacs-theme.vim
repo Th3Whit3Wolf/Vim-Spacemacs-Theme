@@ -318,7 +318,7 @@ call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 " Rust highlighting
 call <sid>hi("rustArrowCharacter",              s:white, "", s:cterm0E, "", "",     "") "Checked
 call <sid>hi("rustAssert",                      s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustAttribute",                   s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustAttribute",                   s:gui0F, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustBinNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustBoolean",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustBoxPlacement",                s:gui0F, "", s:cterm0D, "", "",     "")
@@ -368,8 +368,8 @@ call <sid>hi("rustMacroRepeatDelimiters",       s:gui08, "", s:cterm08, "", "", 
 call <sid>hi("rustMacroVariable",               s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustModPath",                     s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustModPathSep",                  s:white, "", s:cterm0C, "", "bold", "")
-call <sid>hi("rustObsoleteExternMod",           s:gui0F, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustObsoleteStorage",             s:gui0F, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustObsoleteExternMod",           s:gui0C, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustObsoleteStorage",             s:gui0C, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustOctNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustOperator",                    s:white, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustPubScope",                    s:gui0D, "", s:cterm0D, "", "",     "")
