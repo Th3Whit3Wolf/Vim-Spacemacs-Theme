@@ -322,12 +322,12 @@ call <sid>hi("rustCommentBlockDoc",               s:gui0A, "", s:cterm0A, "", ""
 call <sid>hi("rustCommentBlockDocError",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustCommentLineDoc",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustCommentLineDocError",               s:gui0A, "", s:cterm0A, "", "", "")
-call <sid>hi("rustConstant",               s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("rustConstant",               s:gui09, "", s:cterm09, "", "", "")
 call <sid>hi("rustEscapeError",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustFuncName",               s:gui0D, "", s:cterm0D, "", "bold", "")
 call <sid>hi("rustIdentifier",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustInvalidBareKeyword",               s:cterm0A, "", s:cterm0A, "", "", "")
-call <sid>hi("rustKeyword",               s:gui0E, "", s:cterm0E, "", "bold", "") "Check
+call <sid>hi("rustKeyword",               s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustLifetime",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustMacro",               s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("rustMacroVariable",               s:gui0A, "", s:cterm0A, "", "", "")
@@ -338,7 +338,7 @@ call <sid>hi("rustReservedKeyword",               s:gui0D, "", s:cterm0D, "", ""
 call <sid>hi("rustSelf",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustStructure",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustTrait",               s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("rustType",               s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("rustType",               s:gui0E, "", s:cterm0E, "", "", "")
 
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "", "")
