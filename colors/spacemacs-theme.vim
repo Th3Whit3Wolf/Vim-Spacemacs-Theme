@@ -382,7 +382,7 @@ call <sid>hi("rustSelf",                        s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustSigil",                       s:white, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustString",                      s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustStringContinuation",          s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustStorage",                     s:gui0D, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustStorage",                     s:gui0E, "", s:cterm0E, "", "bold",     "")
 call <sid>hi("rustStructure",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSuper",                       s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustTodo",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
