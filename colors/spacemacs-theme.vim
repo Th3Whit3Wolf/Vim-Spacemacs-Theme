@@ -348,7 +348,7 @@ call <sid>hi("rustEnumVariant",                 s:gui0E, "", s:cterm0E, "", "", 
 call <sid>hi("rustEscape",                      s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustEscapeError",                 s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustEscapeUnicode",               s:gui0A, "", s:cterm0A, "", "",     "")
-call <sid>hi("rustExternCrate",                 s:gui0F, "", s:cterm0F, "", "",     "")
+call <sid>hi("rustExternCrate",                 s:gui0E, "", s:cterm0E, "", "bold",     "")
 call <sid>hi("rustExternCrateString",           s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustFloat",                       s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustFoldBraces",                  s:gui0D, "", s:cterm0D, "", "bold", "")
