@@ -368,7 +368,7 @@ call <sid>hi("rustMacroRepeatDelimiters",       s:gui08, "", s:cterm08, "", "", 
 call <sid>hi("rustMacroVariable",               s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustModPath",                     s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustModPathSep",                  s:white, "", s:cterm0C, "", "bold", "")
-call <sid>hi("rustObsoleteExternMod",           s:gui0F, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustObsoleteExternMod",           s:gui0C, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustObsoleteStorage",             s:gui0C, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustOctNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustOperator",                    s:white, "", s:cterm0D, "", "",     "")
