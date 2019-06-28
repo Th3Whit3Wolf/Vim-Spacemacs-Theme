@@ -316,7 +316,7 @@ call <sid>hi("rubySymbol",                  s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 
 " Rust highlighting
-call <sid>hi("rustArrowCharacter",              s:white, "", s:cterm0E, "", "",     "")
+call <sid>hi("rustArrowCharacter",              s:white, "", s:cterm0E, "", "",     "") "Checked
 call <sid>hi("rustAssert",                      s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustAttribute",                   s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustBinNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
@@ -376,17 +376,22 @@ call <sid>hi("rustPubScope",                    s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustPubScopeCrate",               s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustPubScopeDelim",               s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustQuestionMark",                s:gui0D, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustRepeat",                      s:gui0E, "", s:cterm0E, "", "bold", "")
 call <sid>hi("rustReservedKeyword",             s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSelf",                        s:gui0D, "", s:cterm0D, "", "",     "") "Checked
 call <sid>hi("rustSigil",                       s:white, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustString",                      s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustStringContinuation",                      s:gui0D, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustStringContinuation",          s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustStorage",                     s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustStructure",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSuper",                       s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustTodo",                       s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
+call <sid>hi("rustTodo",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
 call <sid>hi("rustTrait",                       s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
 call <sid>hi("rustType",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
+call <sid>hi("rustTypedef",                     s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustUnion",                       s:gui0C, "", s:cterm0C, "", "bold", "")
+
+
 
 
 " SASS highlighting
