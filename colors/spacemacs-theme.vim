@@ -44,7 +44,7 @@ let s:gui0F = "5d4d7a"
 " Additional gui colours
 let s:yellow = "b1951d"
 let s:green  = "67b11d"
-let s:white  = "ffffff"
+let s:white  = "a3a3a3"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -327,8 +327,8 @@ call <sid>hi("rustCommentLineDocError",               s:gui0A, "", s:cterm0A, ""
 call <sid>hi("rustConditional",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustConstant",               s:gui09, "", s:cterm09, "", "", "")
 call <sid>hi("rustDeriving",               s:gui0C, "", s:cterm0C, "", "bold", "")
-call <sid>hi("rustEnum",               s:gui0A, "", s:cterm0A, "", "", "")
-call <sid>hi("rustEnumVariant",               s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("rustEnum",               s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("rustEnumVariant",               s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("rustEscapeError",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustFuncName",               s:gui0D, "", s:cterm0D, "", "bold", "")
 call <sid>hi("rustIdentifier",               s:gui0A, "", s:cterm0A, "", "", "")
@@ -344,7 +344,7 @@ call <sid>hi("rustObsoleteStorage",               s:gui0D, "", s:cterm0D, "", ""
 call <sid>hi("rustOperator",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustReservedKeyword",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustSelf",               s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("rustSigil",               s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustSigil",               s:gui0E, "", s:cterm0E, "", "bold", "")
 call <sid>hi("rustStructure",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustTrait",               s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustType",               s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
