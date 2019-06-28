@@ -320,7 +320,7 @@ call <sid>hi("rustArrowCharacter",              s:white, "", s:cterm0E, "", "", 
 call <sid>hi("rustAssert",                      s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustAttribute",                   s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustBinNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustBoolean",                     s:gui0D, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustBoolean",                     s:gui0E, "", s:cterm0E, "", "bold", "")
 call <sid>hi("rustBoxPlacement",                s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustBoxPlacementBalance",         s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustCharacter",                   s:gui0A, "", s:cterm0A, "", "",     "")
@@ -371,7 +371,7 @@ call <sid>hi("rustModPathSep",                  s:white, "", s:cterm0C, "", "bol
 call <sid>hi("rustObsoleteExternMod",           s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustObsoleteStorage",             s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustOctNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustOperator",                    s:gui0E, "", s:cterm0E, "", "",     "")
+call <sid>hi("rustOperator",                    s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustPubScope",                    s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustPubScopeCrate",               s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustPubScopeDelim",               s:gui0D, "", s:cterm0D, "", "",     "")
@@ -379,10 +379,11 @@ call <sid>hi("rustQuestionMark",                s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustRepeat",                      s:gui0E, "", s:cterm0E, "", "bold", "")
 call <sid>hi("rustReservedKeyword",             s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSelf",                        s:gui0D, "", s:cterm0D, "", "",     "") "Checked
+call <sid>hi("rustShebang",                     s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSigil",                       s:white, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustString",                      s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustStringContinuation",          s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustStorage",                     s:gui0E, "", s:cterm0E, "", "bold",     "")
+call <sid>hi("rustStorage",                     s:gui0E, "", s:cterm0E, "", "bold", "")
 call <sid>hi("rustStructure",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSuper",                       s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustTodo",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
