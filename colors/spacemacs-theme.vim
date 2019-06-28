@@ -361,7 +361,7 @@ call <sid>hi("rustInvalidBareKeyword",          s:gui0A, "", s:cterm0A, "", "", 
 call <sid>hi("rustKeyword",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustLabel",                       s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustLifetime",                    s:gui0A, "", s:cterm0A, "", "",     "")
-call <sid>hi("rustMacro",                       s:gui08, "", s:cterm08, "", "",     "")
+call <sid>hi("rustMacro",                       s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustMacroRepeat",                 s:gui08, "", s:cterm08, "", "",     "")
 call <sid>hi("rustMacroRepeatCount",            s:gui08, "", s:cterm08, "", "",     "")
 call <sid>hi("rustMacroRepeatDelimiters",       s:gui08, "", s:cterm08, "", "",     "")
