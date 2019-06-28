@@ -327,7 +327,7 @@ call <sid>hi("rustEscapeError",               s:gui0A, "", s:cterm0A, "", "", ""
 call <sid>hi("rustFuncName",               s:gui0D, "", s:cterm0D, "", "bold", "")
 call <sid>hi("rustIdentifier",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustInvalidBareKeyword",               s:cterm0A, "", s:cterm0A, "", "", "")
-call <sid>hi("rustKeyword",               s:gui08, "", s:cterm08, "", "bold", "")
+call <sid>hi("rustKeyword",               s:gui0E, "", s:cterm0E, "", "bold", "")
 call <sid>hi("rustLifetime",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustMacro",               s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("rustMacroVariable",               s:gui0A, "", s:cterm0A, "", "", "")
