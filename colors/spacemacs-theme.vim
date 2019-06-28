@@ -324,7 +324,7 @@ call <sid>hi("rustCommentBlockDoc",             s:gui0A, "", s:cterm0A, "", "", 
 call <sid>hi("rustCommentBlockDocError",        s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustCommentLineDoc",              s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustCommentLineDocError",         s:gui0A, "", s:cterm0A, "", "",     "")
-call <sid>hi("rustConditional",                 s:gui0E, "", s:cterm0E, "", "bold", "")
+call <sid>hi("rustConditional",                 s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustConstant",                    s:gui09, "", s:cterm09, "", "",     "")
 call <sid>hi("rustDeriving",                    s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustEnum",                        s:gui0E, "", s:cterm0E, "", "",     "")
@@ -343,7 +343,7 @@ call <sid>hi("rustObsoleteExternMod",           s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustObsoleteStorage",             s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustOperator",                    s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustReservedKeyword",             s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustSelf",                        s:gui0D, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustSelf",                        s:gui0D, "", s:cterm0D, "", "",     "") "Checked
 call <sid>hi("rustSigil",                       s:white, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustStructure",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustTrait",                       s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
