@@ -318,7 +318,7 @@ call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 " Rust highlighting
 call <sid>hi("rustArrowCharacter",              s:white, "", s:cterm0E, "", "",     "") "Checked
 call <sid>hi("rustAssert",                      s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustAttribute",                   s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("rustAttribute",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustBinNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustBoolean",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustBoxPlacement",                s:gui0F, "", s:cterm0D, "", "",     "")
@@ -410,6 +410,25 @@ call <sid>hi("SpellBad",     "", s:gui00, "", s:cterm00, "undercurl", s:gui08)
 call <sid>hi("SpellLocal",   "", s:gui00, "", s:cterm00, "undercurl", s:gui0C)
 call <sid>hi("SpellCap",     "", s:gui00, "", s:cterm00, "undercurl", s:gui0D)
 call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl", s:gui0E)
+
+" Rainbow Parentheses
+if !exists('g:rbpt_colorpairs')
+  let g:rbpt_colorpairs = [['blue', '#6981c5'], ['magenta', '#a15ea7'],
+        \ ['red', '#d26487'], ['173', '#ca754b']]
+endif
+
+let g:rainbow_guifgs = [ '#ca754b', '#d26487', '#a15ea7', '#6981c5' ]
+let g:rainbow_ctermfgs = [ '173', 'red', 'magenta', 'blue' ]
+
+if !exists('g:rainbow_conf')
+  let g:rainbow_conf = {}
+endif
+if !has_key(g:rainbow_conf, 'guifgs')
+  let g:rainbow_conf['guifgs'] = g:rainbow_guifgs
+endif
+if !has_key(g:rainbow_conf, 'ctermfgs')
+  let g:rainbow_conf['ctermfgs'] = g:rainbow_ctermfgs
+endif
 
 " Remove functions
 delf <sid>hi
