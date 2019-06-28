@@ -381,7 +381,7 @@ call <sid>hi("rustReservedKeyword",             s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustSelf",                        s:gui0D, "", s:cterm0D, "", "",     "") "Checked
 call <sid>hi("rustShebang",                     s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustSigil",                       s:white, "", s:cterm0E, "", "bold", "") "Checked
-call <sid>hi("rustString",                      s:gui0D, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustString",                      s:gui0B, "", s:cterm0B, "", "",     "")
 call <sid>hi("rustStringContinuation",          s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustStorage",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustStructure",                   s:gui0D, "", s:cterm0D, "", "",     "")
