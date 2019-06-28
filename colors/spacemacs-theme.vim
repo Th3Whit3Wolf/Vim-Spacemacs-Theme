@@ -321,8 +321,8 @@ call <sid>hi("rustAssert",                      s:gui0D, "", s:cterm0D, "", "", 
 call <sid>hi("rustAttribute",                   s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustBinNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustBoolean",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
-call <sid>hi("rustBoxPlacement",                s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustBoxPlacementBalance",         s:gui0D, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustBoxPlacement",                s:gui0F, "", s:cterm0D, "", "",     "")
+call <sid>hi("rustBoxPlacementBalance",         s:gui0F, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustCharacter",                   s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustCharacterInvalid",            s:gui0A, "", s:cterm0A, "", "",     "")
 call <sid>hi("rustCharacterInvalidUnicode",     s:gui0A, "", s:cterm0A, "", "",     "")
@@ -391,8 +391,6 @@ call <sid>hi("rustTrait",                       s:gui0C, "", s:cterm0C, "", "bol
 call <sid>hi("rustType",                        s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
 call <sid>hi("rustTypedef",                     s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustUnion",                       s:gui0C, "", s:cterm0C, "", "bold", "")
-call <sid>hi("rustUnsafe",                      s:yellow, "", s:cterm0C, "", "bold", "")
-
 
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "", "")
