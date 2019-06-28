@@ -318,7 +318,7 @@ call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 " Rust highlighting
 call <sid>hi("rustArrowCharacter",              s:white, "", s:cterm0E, "", "",     "") "Checked
 call <sid>hi("rustAssert",                      s:gui0D, "", s:cterm0D, "", "",     "")
-call <sid>hi("rustAttribute",                   s:gui0F, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustAttribute",                   s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustBinNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustBoolean",                     s:gui0E, "", s:cterm0E, "", "bold", "") "Checked
 call <sid>hi("rustBoxPlacement",                s:gui0F, "", s:cterm0D, "", "",     "")
@@ -339,7 +339,7 @@ call <sid>hi("rustConditional",                 s:gui0E, "", s:cterm0E, "", "bol
 call <sid>hi("rustConstant",                    s:gui09, "", s:cterm09, "", "",     "")
 call <sid>hi("rustDefault",                     s:gui09, "", s:cterm09, "", "",     "")
 call <sid>hi("rustDerive",                      s:gui0E, "", s:cterm0E, "", "",     "")
-call <sid>hi("rustDeriving",                    s:gui0C, "", s:cterm0C, "", "bold", "")
+call <sid>hi("rustDeriving",                    s:gui0F, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustDeriveTrait",                 s:gui0E, "", s:cterm0E, "", "",     "")
 call <sid>hi("rustDecNumber",                   s:gui0E, "", s:cterm0E, "", "",     "")
 call <sid>hi("rustHexNumber",                   s:gui0E, "", s:cterm0E, "", "",     "")
