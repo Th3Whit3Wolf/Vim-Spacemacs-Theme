@@ -344,7 +344,7 @@ call <sid>hi("rustObsoleteStorage",               s:gui0D, "", s:cterm0D, "", ""
 call <sid>hi("rustOperator",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustReservedKeyword",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustSelf",               s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("rustSigil",               s:gui0E, "", s:cterm0E, "", "bold", "")
+call <sid>hi("rustSigil",               s:white, "", s:cterm0E, "", "bold", "")
 call <sid>hi("rustStructure",               s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("rustTrait",               s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustType",               s:gui0C, "", s:cterm0C, "", "bold", "") "Checked
