@@ -316,7 +316,7 @@ call <sid>hi("rubySymbol",                  s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 
 " Rust highlighting
-call <sid>hi("rustArrowCharacter",              s:gui08, "", s:cterm08, "", "",     "")
+call <sid>hi("rustArrowCharacter",              s:white, "", s:cterm0E, "", "",     "")
 call <sid>hi("rustAssert",                      s:gui0D, "", s:cterm0D, "", "",     "")
 call <sid>hi("rustAttribute",                   s:gui0C, "", s:cterm0C, "", "bold", "")
 call <sid>hi("rustBinNumber",                   s:gui0D, "", s:cterm0D, "", "",     "")
